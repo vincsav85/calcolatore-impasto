@@ -262,4 +262,60 @@ export const farine = [
     idratazione_max: 60,
     note: "Marca del distributore, uso generico"
   },
+
+// ─── GRANDE DISTRIBUZIONE ─────────────────────────────────────
+
+  // SPADONI
+  { id: 26, nome: "Gran Mugnaio per Pizza", marca: "Spadoni", tipo: "00", W_min: 200, W_max: 240, idratazione_max: 65, note: "Reperibile ovunque, risultati simili alle farine professionali" },
+  { id: 27, nome: "Gran Mugnaio 00 Universale", marca: "Spadoni", tipo: "00", W_min: 170, W_max: 200, idratazione_max: 60, note: "Uso generico, lievitazioni brevi" },
+  { id: 28, nome: "Gran Mugnaio Integrale", marca: "Spadoni", tipo: "integrale", W_min: 200, W_max: 240, idratazione_max: 65, note: "Per pane integrale e pizza rustica" },
+  { id: 29, nome: "0 d'America Manitoba", marca: "Spadoni", tipo: "0", W_min: 330, W_max: 360, idratazione_max: 85, note: "Farina forte da supermercato, ottima per rinforzare impasti" },
+  { id: 30, nome: "Farina Biologica", marca: "Spadoni", tipo: "00", W_min: 180, W_max: 240, idratazione_max: 63, note: "Bio, per uso generico e lievitazioni brevi" },
+
+  // BARILLA
+  { id: 31, nome: "Farina 00", marca: "Barilla", tipo: "00", W_min: 150, W_max: 180, idratazione_max: 58, note: "Farina debole, per lievitazioni molto brevi o pasta fresca" },
+  { id: 32, nome: "Farina 00 Grano Tenero 100% Italiano", marca: "Barilla", tipo: "00", W_min: 150, W_max: 180, idratazione_max: 58, note: "100% grano italiano, uso generico" },
+
+  // DIVELLA
+  { id: 33, nome: "Farina 00 per Pizza", marca: "Divella", tipo: "00", W_min: 240, W_max: 270, idratazione_max: 70, note: "Discreta per pizza casalinga, lievitazione 8-12h" },
+  { id: 34, nome: "Farina 00 Standard", marca: "Divella", tipo: "00", W_min: 160, W_max: 180, idratazione_max: 58, note: "Uso generico, sconsigliata per pizza" },
+  { id: 35, nome: "Farina 0", marca: "Divella", tipo: "0", W_min: 170, W_max: 190, idratazione_max: 60, note: "Media forza, per pane e pizza casalinga" },
+
+  // LO CONTE
+  { id: 36, nome: "Farine Magiche Pizza", marca: "Lo Conte", tipo: "00", W_min: 220, W_max: 260, idratazione_max: 68, note: "Con pasta acida essiccata, per pizza fino a 24h" },
+  { id: 37, nome: "Farina 00 Universale", marca: "Lo Conte", tipo: "00", W_min: 160, W_max: 200, idratazione_max: 60, note: "Uso generico, per dolci e pasta fresca" },
+
+  // PIVETTI
+  { id: 38, nome: "Farina 00 Antigrumi", marca: "Pivetti", tipo: "00", W_min: 170, W_max: 210, idratazione_max: 62, note: "Uso generico, lievitazioni brevi" },
+  { id: 39, nome: "Farina Manitoba", marca: "Pivetti", tipo: "0", W_min: 330, W_max: 360, idratazione_max: 85, note: "Farina forte, per grandi lievitati e prefermenti" },
+
+  // MOLINO CHIAVAZZA
+  { id: 40, nome: "Farina 00 per Dolci", marca: "Molino Chiavazza", tipo: "00", W_min: 130, W_max: 160, idratazione_max: 55, note: "Debole, solo per dolci — non adatta alla pizza" },
+  { id: 41, nome: "Farina 00 Antigrumi", marca: "Molino Chiavazza", tipo: "00", W_min: 160, W_max: 200, idratazione_max: 60, note: "Uso generico, lievitazioni molto brevi" },
+  { id: 42, nome: "Manitoba", marca: "Molino Chiavazza", tipo: "0", W_min: 330, W_max: 360, idratazione_max: 85, note: "Farina forte, per lievitazioni lunghe" },
+
+  // GAROFALO
+  { id: 43, nome: "Farina 00 W170", marca: "Garofalo", tipo: "00", W_min: 160, W_max: 180, idratazione_max: 58, note: "Uso generico, lievitazioni brevi" },
+  { id: 44, nome: "Farina 00 per Pizza", marca: "Garofalo", tipo: "00", W_min: 240, W_max: 260, idratazione_max: 68, note: "Per pizza casalinga, lievitazioni medie" },
+
+  // MOLINO ROSSETTO
+  { id: 45, nome: "Farina 00", marca: "Molino Rossetto", tipo: "00", W_min: 160, W_max: 200, idratazione_max: 60, note: "100% grano italiano, uso generico" },
+  { id: 46, nome: "Farina per Pizza", marca: "Molino Rossetto", tipo: "00", W_min: 220, W_max: 250, idratazione_max: 66, note: "Per pizza casalinga e pane a lievitazione breve" },
+
+  // MOLINO DI VIGEVANO
+  { id: 47, nome: "Farina Pizza Croccante", marca: "Molino di Vigevano", tipo: "00", W_min: 290, W_max: 310, idratazione_max: 72, note: "Per pizza croccante e sottile, buona forza" },
+  { id: 48, nome: "Farina Pizza Soffice", marca: "Molino di Vigevano", tipo: "00", W_min: 300, W_max: 320, idratazione_max: 75, note: "Per pizza soffice e cornicione alveolato" },
+
+  // MARCHI DEL DISTRIBUTORE (MDD)
+  { id: 49, nome: "Farina 00 Bio", marca: "Conad", tipo: "00", W_min: 160, W_max: 200, idratazione_max: 62, note: "Biologica 100% italiana, migliore del test Altroconsumo 2022" },
+  { id: 50, nome: "Farina 00", marca: "Coop", tipo: "00", W_min: 160, W_max: 200, idratazione_max: 60, note: "Marca del distributore, uso generico" },
+  { id: 51, nome: "Farina 00", marca: "Esselunga", tipo: "00", W_min: 160, W_max: 200, idratazione_max: 60, note: "Prodotta da Molino Chiavazza, uso generico" },
+  { id: 52, nome: "Farina 00", marca: "Carrefour", tipo: "00", W_min: 150, W_max: 180, idratazione_max: 58, note: "Marca del distributore, uso generico" },
+  { id: 53, nome: "Farina 0 per Pizza", marca: "Tre Mulini (Eurospin)", tipo: "0", W_min: 200, W_max: 240, idratazione_max: 65, note: "Miglior acquisto del test Altroconsumo 2022, ottimo rapporto qualità/prezzo" },
+  { id: 54, nome: "Farina 00", marca: "Lidl Belbake", tipo: "00", W_min: 150, W_max: 180, idratazione_max: 58, note: "Marca del distributore Lidl, uso generico" },
+  { id: 55, nome: "Farina 00", marca: "Pam", tipo: "00", W_min: 150, W_max: 180, idratazione_max: 58, note: "Marca del distributore, uso generico" },
+
+  // MARTIMUCCI
+  { id: 56, nome: "Farina 00", marca: "Martimucci", tipo: "00", W_min: 180, W_max: 220, idratazione_max: 63, note: "Qualità buona secondo test Altroconsumo, uso generico" },
+
 ]
