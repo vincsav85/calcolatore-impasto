@@ -1,0 +1,22 @@
+{
+  "name": "Calcolatore Impasto",
+  "short_name": "Impasto",
+  "description": "Calcolatore professionale per impasti di pizza e pane",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f97316",
+  "theme_color": "#f97316",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
